@@ -1,0 +1,151 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('Images/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.form
+{
+    height: 700px;
+    width: 400px;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.form-content
+{
+    height: 600px;
+    width: 80%;
+    margin:50px auto;
+    
+}
+.logo
+{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    left: 18%;
+    
+}
+.logo img
+{
+    height: 100px;
+    width: 200px;
+}
+h1
+{
+    color:white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.un
+{
+    padding-left: 25px;
+    color: white;
+    margin-top: 40px;
+    height: 45px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    outline: none;
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) ;
+    border-radius: 5px;
+}
+::placeholder
+{
+ 
+}
+.pwd
+{
+    padding-left: 25px;
+    margin-top: 30px;
+    height: 45px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    outline: none;
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) ;
+    border-radius: 5px;
+}
+.sign-in
+
+{
+    
+    margin-top:30px ;
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+}
+.sign-in .si
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px ;
+    width: 100%;
+    height: 45px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius:5px ;
+}
+.sign-in p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    color: lightgrey;
+    text-align: center;
+}
+.sign-in .cd
+{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px ;
+    width: 100%;
+    height: 45px;
+    border: none;
+    color: white;
+    border-radius:5px ;
+    background-color: rgba(255, 255, 255, 0.39);
+}
+.rm span
+{
+    margin-left:10px ;
+    color: white;
+}
+.rm
+{
+    margin-top:20px ;    
+}
+
+.N
+{
+    margin-top: 10px;
+  
+    color: white;
+
+}
+.N a
+
+{
+    
+    text-decoration: none;
+    color: grey;
+}
+.nn
+{
+    margin-top:10px ;
+}
+.para 
+{
+    margin-top: 10px;
+    color: grey;
+}
